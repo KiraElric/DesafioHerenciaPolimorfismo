@@ -76,6 +76,7 @@ end
 
 class Perro < Mamifero
   include Habilidades::Caminante
+  include Habilidades::Nadador
   include Alimentacion::Carnivoro
 end
 
@@ -93,6 +94,7 @@ class Mosca < Insecto
   include Habilidades::Volador
   include Habilidades::Caminante
   include Alimentacion::Herbivoro
+  include Alimentacion::Carnivoro
 end
 
 class Mariposa < Insecto
